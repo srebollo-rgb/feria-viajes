@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<!-- Tipo de documento -->
+<html lang="es">
+<head>
+ <meta charset="utf-8" />
+  <title>Contacto</title>
+  <!-- Título en la pestaña del navegador -->
+  <link rel="stylesheet" href="estilos/estilos.css"/>
+  <!-- Link a hoja de estilos externa -->
+</head>
+<body>
+<!-- Menú de navegación -->
+   <nav>
+    <ul>
+      <li><a href="/index.html">INICIO</a></li>
+      <li><a href="/sobrexporioja.html">SOBRE EXPO RIOJA</a></li>
+      <li><a href="/visitantes.html">VISITANTES</a></li>
+      <li><a href="/expositores.html">EXPOSITORES</a></li>
+      <li><a href="/contacto.html">CONTACTO</a></li>
+    </ul>
+  </nav>
+  <h2>Contacto</h2>
+  <img src="/imagenes/contacto.jpg" alt="Imagen decoractiva contacto">
+    <form action="  mailto:srebollo@birt.eus">
+	<fieldset>
+	<legend>Formulario de contacto</legend>
+	<p>Si tienes alguna duda o consulta, rellena el siguiente formulario:</p>
+	<label for="nombre">Nombre y apellidos:</label>
+    <input type="text" id="nombre" name="nombre" required="required" />
+	<label for="telefono">Teléfono:</label>
+    <input type="tel" id="telefono" name="telefono" required="required" />
+	<label for="correo">Correo electróico:</label>
+    <input type="email" id="correo" name="correo" required="required" />
+	<label for="motivo">Motivo de la consulta:</label>
+    <textarea id="motivo" name="motivo" rows="4" required="required"></textarea>
+	<label>
+      <input type="checkbox" id="acepto" name="acepto" required="required" />
+      He leído, comprendo y acepto los términos y condiciones generales de uso y la política de privacidad.
+    </label>
+    <button type="submit">Enviar consulta</button>
+  </fieldset>
+  </form>
+  <!-- Define formulario -->
+<h2>Otras formas de contacto</h2>
+<ul>
+  <li><a href="tel:+345éfono: +34 555 555 555"> Tlf</a></li>
+  <li><a href="mailto:srebollo@birt.eus">Correo electrónico </a></li>
+</ul>
+  <footer>
+    <p>&copy; 2025 Feria de Turismo Nacional e Internacional de La Rioja. Esta web es una práctica educativa.</p>
+    <p><a href="https://www.larioja.org/turismo"> Web oficial de Turismo de La Rioja</a></p>
+    <!-- Inserta enlace externo -->
+  </footer>
+  <!-- Pie de página con información general --></body>
+</html>
