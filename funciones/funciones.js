@@ -2,9 +2,9 @@
 function mostrarBienvenida() {
   alert("¡Bienvenido a Expo Travel La Rioja!");
 }
-//Reducir tamaño de imagen//
-function tamañoImagen() {
-  document.getElementById("imagenSombrero").img.style.width = "50%";
+//Opacidad 50%//
+function opacidad() {
+  document.getElementById("imagenSombrero").style.opacity = '0.5';
 }
 //Contador de visitas//
 function incrementarContador() {
