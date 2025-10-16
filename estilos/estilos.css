@@ -1,4 +1,4 @@
-/* Tipografía general */
+/* Tipografía general: fuente principal, fondo blanco, color gris oscuro */
 body {
   font-family: 'Segoe UI', sans-serif;
   background-color: white;
@@ -6,11 +6,12 @@ body {
   padding: 20px;
   color: #333;
 }
-/* Navegación horizontal */
+/* Navegación horizontal: fondo azul y espaciado vertical */
 nav {
   background-color: #47808a;
   padding: 10px 0;
 }
+/* Lista del menú: sin viñetas, alineación horizontal y centrado */
 nav ul {
   list-style-type: none;
   margin: 0;
@@ -18,9 +19,11 @@ nav ul {
   display: flex;
   justify-content: center;
 }
+/* Elementos del menú: separación entre enlaces */
 nav ul li {
   margin: 0 15px;
 }
+/* Enlaces del menú: color blanco, negrita y espaciado interno */
 nav ul li a {
   color: white;
   text-decoration: none;
@@ -28,27 +31,27 @@ nav ul li a {
   padding: 8px 12px;
   font-family: 'Segoe UI', sans-serif;
 }
+/* Hover en enlaces del menú: fondo azul oscuro*/
 nav ul li a:hover {
   background-color: #005fa3;
-  border-radius: 4px;
 }
-/* Encabezados */
+/* Encabezados: color azul y fondo blanco */
 h1, h2 {
   color: #47808a;
   font-family: 'Segoe UI', sans-serif;
   background-color: white;
 }
-/* Tablas */
+/* Tablas: alineadas izquierda */
 tabla-izquierda {
-  width: auto; /* Solo ocupa el espacio necesario */
-  margin: 20px auto; /* Centrada con espacio arriba y abajo */
+  width: auto; /* Ocupa espacio necesario */
+  margin: 20px auto; /* Centrada espacio arriba y abajo */
   border-collapse: collapse;
   background-color: white;
   text-align: center;
   font-family: 'Segoe UI', sans-serif;
   margin-top: 20px;
 }
-
+/* Cabecera tabla: fondo azul, texto blanco y borde azul */
 th {
   background-color: #47808a;
   color: white;
@@ -56,37 +59,42 @@ th {
   padding: 12px;
   border: 2px solid #47808a;
 }
+/* Celdas tabla: texto negro, cursiva y borde azul */
 td {
   color: #000000;
   font-style: italic;
   padding: 12px;
   border: 2px solid #47808a;
 }
-/* Formularios */
+/* Formularios: ancho máximo, fondo blanco, borde azul */
 form {
   max-width: 600px;
-  margin: 20px auto;
+  margin: 20px 0;
   background-color: white;
   padding: 20px;
-  border: 1px solid #ccc;
+  border: 1px solid #47808a;
   border-radius: 8px;
   font-family: 'Segoe UI', sans-serif;
 }
+/* Agrupar campos del formulario */
 fieldset {
   border: none;
 }
+/* Título formulario: tamaño, negrita y color azul */
 legend {
   font-size: 1.2em;
   font-weight: bold;
   margin-bottom: 10px;
   color: #47808a;
 }
+/* Etiquetas campos: bloque, espaciado y negrita */
 label {
   display: block;
   margin-top: 10px;
   margin-bottom: 5px;
   font-weight: bold;
 }
+/* Campos texto y área: ancho completo, borde gris y esquinas redondeadas */
 input[type="text"],
 input[type="tel"],
 input[type="email"],
@@ -97,9 +105,11 @@ textarea {
   border-radius: 4px;
   font-size: 1em;
 }
+/* Casilla verificación */
 input[type="checkbox"] {
   margin-right: 8px;
 }
+/* Botón envío: fondo azul, texto blanco */
 button {
   margin-top: 15px;
   background-color: #47808a;
@@ -122,12 +132,13 @@ ul, ol {
 }
 /* Imágenes */
 img {
-  max-width: 100%;
-  height: auto;
+  max-width: 80vh;
+  height: 50vh;
   margin-top: 20px;
   border: 1px solid #ccc;
+  object-fit: contain;
 }
-/* Pie de página */
+/* Pie de página: fondo azul, texto blanco y centrado */
 footer {
   background-color: #47808a;
   color: white;
@@ -139,4 +150,11 @@ footer {
 footer a {
   color: #ffffff;
   text-decoration: underline;
+}
+/* Estilo para créditos de imágenes */
+.creditos-imagenes {
+  font-size: 12px;
+  color: white;
+  margin-top: 5px;
+  text-align: center;
 }
